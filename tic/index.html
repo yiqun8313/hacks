@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="mainS.css">
+		<script type="text/javascript" src="main.js"></script>
+	<body>
+ 
+		<p><b><h2>tic-tac-toc-game</h2></b><p>
+		<div class ="content">	
+		<table border="2" width=100px height=100px>
+			<tr>
+				<td><input type="button" id="bt7" value=" " width="50" onclick="bn(7)"></td>
+				<td><input type="button" id="bt8" value=" " width="50" onclick="bn(8)"></td>
+				<td><input type="button" id="bt9" value=" " width="50" onclick="bn(9)"></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="bt4" value=" " width="50" onclick="bn(4)"></td>
+				<td><input type="button" id="bt5" value=" " width="50" onclick="bn(5)"></td>
+				<td><input type="button" id="bt6" value=" " width="50" onclick="bn(6)"></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="bt1" value=" " width="50" onclick="bn(1)"></td>
+				<td><input type="button" id="bt2" value=" " width="50" onclick="bn(2)"></td>
+				<td><input type="button" id="bt3" value=" " width="50" onclick="bn(3)"></td>
+			</tr>
+		</table>
+		</div>
+		<br>
+	<div class="inputIn">
+		<input type="text" id="info" value="Game begin !" disabled="true">
+		<br><br>
+		<input type="button" id="restart" value="reset" onclick="restart()">
+		<br>
+        <br>
+		player1 name(use O)：<input type="text" id="name1" > 
+		<br>
+		<br>
+		player2 name(use X)：<input type="text" id="name2"  >
+		<br>
+		<br>
+		<Button id="setName"   onclick="setName()">OK</Button>
+		<br>
+
+
+	</div>
+	<div class="foot">
+		<br> <input type="text" id="playerone"  disabled="true" >
+		has win：<input type="text" id="o_win" value="0" disabled="true">
+
+		<br> <input type="text" id="playertwo"  disabled="true">
+		has win：<input type="text" id="x_win" value="0" disabled="true">
+		
+		
+		<br>Draw：<input type="text" id="draw" value="0" disabled="true">
+	</div>
+ 
+	</body>
+</html>

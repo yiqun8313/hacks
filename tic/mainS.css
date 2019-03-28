@@ -1,0 +1,29 @@
+h2 {
+	text-align: center;
+}
+
+.content {
+	padding-left: 700px;
+}
+
+.inputIn{
+	padding-left: 700px;
+}
+
+.foot{
+	padding-left: 600px;
+}
+
+
+.content.button {
+	width:30%;
+	height:30%;
+}
+
+input#playerone {
+    width: 50;
+}
+
+input#playertwo {
+    width: 50;
+}

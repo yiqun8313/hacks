@@ -1,0 +1,7 @@
+[
+{"id":"1","last":"Doe","first":"John","location":{"city":"Oakland","state":"CA","postcode":"94607"},"active":true},
+{"id":"2","last":"Doe","first":"Jane","location":{"city":"San Francisco","state":"CA","postcode":"94105"},"active":true},
+{"id":"3","last":"Black","first":"Jim","location":{"city":"Spokane","state":"WA","postcode":"99207"},"active":true},
+  {"id":"4","last":"Frost","first":"Jack","location":{"city":"Seattle","state":"WA","postcode":"98204"},"active":false}
+]
+
